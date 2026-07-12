@@ -13,9 +13,9 @@
   },
   "position": {
     "enabled": true,
-    "x": 0,
+    "x": 1045,
     "y": 100,
-    "z": 0
+    "z": 209
   },
   "utils": {
     "auto-auth": {
@@ -29,17 +29,17 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 30,
       "messages": [
-        "gay bitch",
-        "Gay",
+        "Adamya Likes Kids",
+        "Ammar Is So Cool",
         "Anugrah Is Gay"
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 100,
-    "max-reconnect-delay": 1000
+    "auto-reconnect-delay": 1,
+    "max-reconnect-delay": 10
   },
   "movement": {
     "enabled": true,
@@ -53,24 +53,24 @@
       "interval": 5000
     },
     "random-jump": {
-      "enabled": true,
+      "enabled": false,
       "interval": 10000
     }
   },
   "modules": {
     "avoidMobs": true,
-    "combat": true,
-    "beds": false,
+    "combat": false,
+    "beds": true,
     "chat": true,
-    "console-commands": true
+    "console-commands": false
   },
   "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
+    "attack-mobs": false,
+    "auto-eat": false
   },
   "beds": {
     "pick-up-day": false,
-    "place-night": false
+    "place-night": true
   },
   "discord": {
     "enabled": true,
